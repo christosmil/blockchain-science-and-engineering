@@ -1,0 +1,9 @@
+// https://www.browserling.com/tools/all-hashes
+
+SHA256
+------
+9fd5baebfe8e38ca1aecf3ec473b46bfb8f6d8a9f5afaaa7c542451c4d371ad3
++
+4aefee7eafd09fedea558517e03930fc10573f00d3b4aa96f42609c60127a62b
+=
+604d518ccea7185f68cb27e92197965f001ad18b923d6597baf6a225214af83a
