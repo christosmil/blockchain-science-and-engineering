@@ -10,8 +10,8 @@ LETTERS_LIST = list(string.ascii_lowercase + string.ascii_uppercase)
 def brute_force_pswd(pswd, min_len, max_len):
 	for letters_of_pswd in (min_len, max_len):
 		for c in product(LETTERS_LIST, repeat = letters_of_pswd):
-			myVar = hashlib.sha256((pswd + ''.join(c)).encode('utf-8')).hexdigest()
-			if (int(myVar, 16) == int(0x7d9eb5ee94f9ca95d640eb79cc8766fe44d5b9744602469fc6bdc748cb3c41f5)):
+			my_var = hashlib.sha256((pswd + ''.join(c)).encode('utf-8')).hexdigest()
+			if (int(my_var, 16) == int(0x7d9eb5ee94f9ca95d640eb79cc8766fe44d5b9744602469fc6bdc748cb3c41f5)):
 				return True, ''.join(c)
 	return False, ''
 
