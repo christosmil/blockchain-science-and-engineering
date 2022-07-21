@@ -1,3 +1,5 @@
+# Python v3.7.2
+
 import string
 
 def calculate_decimal_sum(list_of_characters):
